@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.abhinav.restuser.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/roti"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/roti"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="147dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/sabji_1"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sabji1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="120dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/sabji_2"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sabji2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="120dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/sabji_3"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/sabji3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="120dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/dal"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/dal"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="155dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/rice"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/rice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="150dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/butter_milk"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/buttermilk"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="44dp"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="#2c19b6">
+
+        <TextView
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:text="@string/type_of_dish"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:gravity="center"
+            android:text="@string/price"
+            android:textColor="@android:color/background_light"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#edca2b">
+
+        <TextView
+            android:id="@+id/disht"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:layout_marginLeft="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp">
+        <TextView
+            android:id="@+id/lsu"
+            android:background="#FFFF4444"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="25sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

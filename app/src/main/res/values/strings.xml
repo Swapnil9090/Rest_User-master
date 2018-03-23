@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RestUser</string>
+    <string name="rest_1">PRAMUKH</string>
+    <string name="rest_2">MATARANIDHABA</string>
+    <string name="rest_3">JAYMATARANIKHANAKHAJANA</string>
+    <string name="rest_4">SHRINIVAS</string>
+    <string name="rest_5">MATARANIUNLIMITED</string>
+
+    <string name="roti">ROTI</string>
+    <string name="rice">RICE</string>
+    <string name="dal">DAL</string>
+    <string name="butter_milk">BUTTER MILK</string>
+    <string name="sabji_1">SABJI-1</string>
+    <string name="sabji_2">SABJI-2</string>
+    <string name="sabji_3">SABJI-3</string>
+    <string name="type_of_dish">TYPE OF DISH</string>
+    <string name="price">PRICE</string>
+</resources>
